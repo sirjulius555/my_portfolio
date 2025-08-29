@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,6 +41,7 @@
             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
             <li><a href="tel:+234 8132238071"><i class="fab fa-whatsapp"></i></a></li>
+        </ul> <!-- ✅ close sidebar ul -->
     </div>
 
     <!-- Hero Section -->
@@ -67,7 +69,7 @@
         <div class="about-content">
             <div class="about-image" data-aos="fade-right">
                 <div class="image-wrapper">
-                    <img src="/images/mypics.jpg" alt="Your Name">
+                    <img src="/images/my photo.jpg" alt="Your Name">
                     <div class="image-shape"></div>
                 </div>
             </div>
@@ -95,7 +97,7 @@
                 </div>
                 
                 <div class="about-buttons">
-                    <a href="cv\Full-Stack Version.pdf" class="cta-button" download>Download CV</a>
+                    <a href="cv/Julius_Adeyemo-cv22.pdf" class="cta-button" download>Download CV</a>
                 </div>
             </div>
         </div>
@@ -564,13 +566,40 @@
                         <span>JavaScript</span>
                     </div>
                 </div>
-            </div>                       
             </div>
+
+            <!-- ✅ Node/Express/Stripe item moved INSIDE the grid and category fixed -->
+            <div class="portfolio-item" data-category="nodejs" data-aos="fade-up">
+                <div class="portfolio-img">
+                    <img src="images/world.jpeg" alt="Project 3">
+                </div>
+                <div class="portfolio-content">
+                    <h3>landing page and Tour page DISPLAYING MAPS</h3>
+                    <p>Node and Express js backend booking app integrated with stripe</p>
+                    <p>Strong Authentication and Authorisation </p>
+                    <p>Strong integration with Stripe </p>
+
+                    <div class="portfolio-links">
+                        <a href="" class="live-demo">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/sirjulius555/Natours-travrl-app" class="source-code">
+                            <i class="fab fa-github"></i> Source Code
+                        </a>
+                    </div>
+                    <div class="tech-stack">
+                        <span>PUG</span>
+                        <span>NODE</span>
+                        <span>EXPRESS</span>
+                        <span>MongoDB</span>
+
+                        <span>SENDGRID</span>
+                        <span>MAPBOX</span>
+                    </div>
+                </div>
             </div>
-            </div>
-        </div>
-    </div>
-    </section>
+        </div> <!-- ✅ close portfolio-grid properly -->
+    </section> <!-- ✅ close portfolio section properly -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
@@ -783,4 +812,5 @@
         document.head.appendChild(style);
     </script>
 </body>
-</html> 
+</html>
+
